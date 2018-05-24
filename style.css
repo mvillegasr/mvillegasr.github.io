@@ -1,0 +1,57 @@
+.black-background{
+	background-color: black;
+}
+
+.gray-background{
+	background-color: gray;
+}
+
+.silver-background{
+	background-color: silver;
+}
+
+img.resize {
+	max-width: 15%;
+	max-height: 15%;
+	border-radius: 50%
+}
+
+.about-padding{
+	padding-top: 10px;
+	margin-bottom: -20px;
+}
+
+.white-text{
+	color: white;
+}
+
+.contacts-margin{
+	margin-top: -20px;
+}
+
+h1{
+	padding-top: 50px;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.big-icon {
+	font-size: 25px;
+	padding: 50px;
+}
+
+.facebook {
+	color: white;
+	background-color: #3b5998
+}
