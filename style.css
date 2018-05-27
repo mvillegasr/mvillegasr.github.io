@@ -1,13 +1,21 @@
-.black-background{
+body {
 	background-color: black;
+	font-family: 'Roboto';
 }
 
-.gray-background{
+#about {
 	background-color: gray;
+	padding-top: 10px;
+	margin-bottom: -20px;
 }
 
-.silver-background{
+#projects {
 	background-color: silver;
+}
+
+#contact {
+	background-color: gray;
+	margin-top: -20px;
 }
 
 img.resize {
@@ -16,17 +24,8 @@ img.resize {
 	border-radius: 50%
 }
 
-.about-padding{
-	padding-top: 10px;
-	margin-bottom: -20px;
-}
-
 .white-text{
 	color: white;
-}
-
-.contacts-margin{
-	margin-top: -20px;
 }
 
 h1{
@@ -54,4 +53,8 @@ p{
 .facebook {
 	color: white;
 	background-color: #3b5998
+}
+
+.nav-pills {
+	color: black;
 }
