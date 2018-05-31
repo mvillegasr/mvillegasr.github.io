@@ -16,6 +16,7 @@ body {
 #contact {
 	background-color: gray;
 	margin-top: -20px;
+	padding-bottom: 50px;
 }
 
 img.resize {
@@ -79,4 +80,16 @@ p{
 .fa:hover {
 	text-decoration: none;
 	opacity: 0.7;
+}
+
+label {
+	font-weight: normal
+}
+
+.form-group {
+	padding-left: 30px;
+}
+
+#submitButton {
+	margin-left: 30px;
 }

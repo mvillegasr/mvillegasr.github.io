@@ -51,11 +51,32 @@
 		</div>
 		<div id="contact">
 			<h2>Contact</h2>
-			<p class="text-center white-text">Feel free to email me at villegasmanuel540p@gmail.com</p>
-			<div class="text-center" id="icons">
-				<a href="http://www.linkedin.com/in/manuel-villegas-7214571b" class="fa fa-linkedin"></a>
-				<a href="https://github.com/mvillegasr" class="fa fa-github"></a>
-				<a href="https://www.facebook.com/manuel.villegas.587" class="fa fa-facebook"></a>
+			<div class="row">
+				<div class="col-xs-6 white-text">
+					<form action="http://formspree.io/villegasmanuel540p@gmail.com" method="POST">
+						<div class="form-group">
+							<label>Name:</label>
+							<input type="Name" class="form-control" name="name" id="nameInput">
+						</div>
+  						<div class="form-group">
+    						<label>Email address:</label>
+    						<input type="email" class="form-control" name="_replyto" id="emailInput">
+  						</div>
+  						<div class="form-group">
+    						<label>Message:</label>
+    						<textarea type="text" name="message" class="form-control" id="textInput" rows="3"></textarea>
+  						</div>
+  						<button type="submit" value="Send" class="btn btn-primary" id="submitButton">Submit</button>
+					</form>
+				</div>
+				<div class="col-xs-6">		
+					<p class="text-center white-text">You can find me here!</p>
+					<div class="text-center" id="icons">
+						<a href="http://www.linkedin.com/in/manuel-villegas-7214571b" class="fa fa-linkedin"></a>
+						<a href="https://github.com/mvillegasr" class="fa fa-github"></a>
+						<a href="https://www.facebook.com/manuel.villegas.587" class="fa fa-facebook"></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
