@@ -93,3 +93,21 @@ label {
 #submitButton {
 	margin-left: 30px;
 }
+
+a {
+	margin: 0 auto;
+	display: table;
+}
+
+.project-padding {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.special {
+	box-shadow: none !important;
+}
